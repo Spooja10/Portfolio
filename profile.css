@@ -261,47 +261,7 @@ section .title::after{
     background: none;
 }
 
-/* services section styling 
-.services, .teams{
-    color:#fff;
-    background: #111;
-}
-.services .title::before,
-.teams .title::before{
-    background: #fff;
-}
-.services .title::after,
-.teams .title::after{
-    background: #111;
-    content: "what I Did";
-}
-.services .serv-content .card{
-    width: calc(25% - 20px);
-    background: #222;
-    text-align: center;
-    border-radius: 6px;
-    padding: 50px 25px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    justify-content: space-between;
-    
-}
-
-.services .serv-content .card .box{
-    transition: all 0.3s ease;
-}
-.services .serv-content .card:hover .box{
-    transform: scale(1.05);
-}
-
-.services .serv-content .card .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
-   }
-   */
-
-   /*  Education Details  */
+/*  Education Details  */
 .services,
 .projects {
   color: #0e0e0e;
@@ -321,6 +281,7 @@ section .title::after{
 
 .services .serv-content .card {
   width: calc(25% - 20px);
+  height: 350px;   
   background: #222;
   text-align: center;
   border-radius: 10px;
